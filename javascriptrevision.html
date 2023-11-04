@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 1. what is variables? => container to store data values -->
+    <!-- 2. data types in javascript?-->
+    <!-- 3.difference between undefine and null -->
+    <script>
+      //variables example
+       var num1 = 34;
+       var num2 = 44;
+       // console.log(num1 + num2)
+       //data type  example
+       var num3 = 40;
+       var num4 = 45.6
+       //string example
+       var str1 = 'this is shubham'
+       var str2 = "this is shubham"
+       //object example
+       var marks = {
+           shubham:33,
+           raj:44,
+           shyam:23
+       }
+       // console.log(marks)
+
+       //undefine and null difference
+       var und = undefined //here undefine means no value is define
+        var und2;
+       //console.log(und)
+       var n = null;//here null means there is nothing in this variable
+       //console.log(n)
+
+       //logical operator
+       //&& jab tak dono condition true nahi hongi tab tak aage nahi badega
+       //|| jab tak dono condition mein ek condition true honi chaiye tab aage badega
+       //!not operator true ko false , false ko true karta hai yeh
+
+       //function in javascript
+       function avg(a, b){
+           return (a+b)/2;
+       }
+
+       var c = avg(4, 6)
+       //console.log(c)
+
+       function age(n){
+           if(n>8){
+               console.log("you can drink water")
+           }
+           else{
+               console.log("you are not allowed to drink water");
+           }
+       }
+       age(10)
+    </script>
+  </body>
+</html>
